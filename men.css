@@ -1,0 +1,600 @@
+
+body {
+    margin: 0%;
+}
+
+.dropdown {
+    position: relative;
+    /* bottom: .5px; */
+}
+
+.background1 {
+    width: 100%;
+    background-color: #ffffff;
+    border: 1px solid rgb(226, 222, 222);
+    padding-bottom: 15px;
+    position: fixed;
+    z-index: 1000;
+    height: 53px;
+}
+
+.logo-nike {
+    display: flex;
+    padding-top: 20px;
+    
+}
+
+.logo-nike img {
+    width: 57px;
+}
+
+.logo-nike b {
+    font-weight: 600;
+    font-size: 14px;
+    margin-left: 50px;
+    color: black;
+}
+
+.logo-nike a {
+    text-decoration: none;
+    margin-left: 20px;
+} 
+
+.element {
+    width: 500px;
+    margin-left: 370px;
+    display: flex;
+    justify-content: space-between;
+    
+}  
+
+#search-bar {
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+    margin-left: 40px;
+
+}
+
+#search-bar img {
+    width: 23px;
+    height: 23px;
+    margin-left: 215px;
+    margin-top: 2px;
+    
+
+}
+
+#search-bar input {
+    margin-top: -5px;
+    border-radius: 3px;
+    width: 190px;
+    height: 35px;
+    border: 1px solid rgb(173, 173, 173);
+}
+
+.covid19 {
+    background-color: rgb(247, 247, 247);
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 65px;
+}
+
+.covid19 p {
+    font-size: 14px;
+}
+
+.covid19 a {
+    color: black;
+    margin-left: 5px;
+}
+#mentextmanager {
+    padding-top: 80px;
+}
+#menText {
+    font-size: 21px;
+    font-weight: 300;
+    margin-left: 50px;
+    margin-top: -10px;
+}
+
+#freshDesign {
+    width: 93%;
+    display: flex;
+    justify-content: center;
+}
+
+#freshDesign img {
+    width: 100%;
+    margin-left: 100px;
+
+}
+#freshText {
+    margin-top: -770px;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 80px; 
+}
+
+#frt1 {
+    color: white;
+}
+
+#frt2 {
+    color: white;
+    font-weight: 900;
+    font-size: 60px;
+    margin-top: -10px;
+    line-height: .93333;
+    /* font-family: "Nike Futura","Helvetica Neue",Helvetica,Arial,sans-serif;; */
+}
+
+.buttonv1 {
+    width: 100px;
+    height: 40px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 8px 5px 8px 5  px;
+    border-radius: 20px;
+    border: 1px solid rgb(240, 240, 240);   
+    cursor: pointer;
+    margin-top: -20px;
+    font-size: 15px;
+
+
+}
+
+.buttonv1:hover {
+    color: black;
+    background-color: rgb(240, 240, 240);
+    transition: 0s all;
+}
+
+#featured {
+    font-size: 21px;
+    font-weight: 300;
+    margin-left: 50px;
+    margin-top: 606px;
+}
+
+.footWearManager {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+
+
+.rdpic {
+    display: flex;
+    flex-direction: column;    
+    filter: gray;
+    -webkit-filter: grayscale(2);
+    -webkit-transition: all .3s ease-in-out;
+}
+
+.rdpic img{
+    width: 450px; 
+
+}
+
+.rdpic:hover {
+    -webkit-filter: grayscale(0);
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.collections {
+    display: flex;
+    justify-content: space-between;
+    width: 93%;  
+    margin-top: 35px;
+}
+
+.collect1n2 img {
+    width: 670px;
+    height: 570px;
+}
+
+#basketCollect {
+    margin-left: 32px;
+    color: white;
+    font-size: 18px;
+}
+.SNKdescript {
+    display: flex;
+    justify-content: space-between;
+    width: 58%;
+    margin-right: 470px;
+    margin-top: -110px;
+}
+.buttonv5 {
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    padding: 8px 20px 8px 20px;
+    border-radius: 20px;
+    border: 2px solid white;   
+    cursor: pointer;
+    margin-top: -150px;
+    font-size: 15px;
+    margin-right: 36px;
+}
+
+.buttonv5:hover {
+    color: black;
+    border: 2px solid black; 
+    background: transparent;
+    transition: 0.3s all;
+}
+
+#revivalCollect {
+    color: black;
+    font-size: 18px;    
+}
+
+#jordancollect {
+    color: black;
+    font-size: 18px;    
+}
+
+.buttonv6 {
+    width: 220px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    padding: 9px 10px 9px 10px;
+    border-radius: 20px;
+    border: 2px solid white;   
+    cursor: pointer;
+    margin-top: -150px;
+    font-size: 15px;
+    margin-right: 43px;
+}
+.des1 {
+    margin-left: 20px;
+    margin-top: -3px;
+}
+.buttonv6:hover {
+    color: black;
+    border: 2px solid black; 
+    background: transparent;
+    transition: 0.3s all;
+}
+
+#trending {
+    font-size: 21px;
+    font-weight: 300;
+    margin-left: 50px;
+    margin-top: 70px;
+}
+
+#featured2 {
+    font-size: 21px;
+    font-weight: 300;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+#Af1 {
+    width: 93%;
+    display: flex;
+    justify-content: center;
+}
+
+#Af1 img {
+    width: 100%;
+    margin-left: 100px;
+}
+
+#af1Text {
+    margin-left: 50px;
+    margin-top: -520px;
+
+}
+#af1Text img {
+    width: 587px;
+}
+.buttonv8 {
+    width: 230px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    padding: 8px 5px 8px 5px;
+    border-radius: 20px;
+    border: 1px solid rgb(0, 0, 0);   
+    cursor: pointer;
+    margin-top: -10 0px;
+    font-size: 15px;
+    margin-left: 70px;
+}
+
+.buttonv8:hover {
+    color: black;
+    border: 2px solid black; 
+    background: transparent;
+    transition: 0.3s all;
+}
+
+.footWearManager2 {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 40px;
+}
+
+.flex2 {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-left: -140px;
+}
+
+#essentials {
+    font-size: 21px;
+    font-weight: 300;
+    margin-left: 50px;
+    margin-top: 400px;
+}
+.buttonv9 {
+    width: 100px;
+    height: 40px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 8px 5px 8px 5px;
+    border-radius: 20px;
+    border: 2px solid rgb(0, 0, 0);   
+    cursor: pointer;
+    margin-top: -10 0px;
+    font-size: 15px;
+}
+
+.buttonv9:hover {
+    color: rgb(255, 255, 255);
+    border:1px solid black; 
+    background-color: black;
+    transition: 0.3s all;
+}
+
+.buttonv10 {
+    width: 180px;
+    height: 40px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 8px 5px 8px 5px;
+    border-radius: 20px;
+    border: 2px solid rgb(0, 0, 0);   
+    cursor: pointer;
+    margin-top: -10 0px;
+    font-size: 15px;
+    margin-left: 75px;
+}
+
+.buttonv10:hover {
+    color: rgb(255, 255, 255);
+    border: 1px solid black; 
+    background-color: black;
+    transition: 0.3s all;
+}
+
+
+
+
+#column1{
+    margin-left: 20px;
+}
+
+#column1 h1{
+    font-size: 10px;
+}
+
+#column2{
+    margin-left: 75px;
+}
+
+#column3{
+    margin-left: 75px;
+}
+
+.first_column{
+    float: left;
+}
+
+.left{
+    width: 13%;
+}
+
+.middle, .right{
+    width: 11%;
+}
+
+.light{
+    font-weight: lighter;
+}
+
+#footer{
+    background-color: black;
+    height: 250px;
+    width: 100%;
+    margin-top: 150px;
+}
+
+.white1{
+    color: white;
+    font-size: 14px;
+    font-family: 'Teko', sans-serif;
+}
+
+.white{
+    color: grey;
+    font-weight: lighter;
+    font-size: 11px;
+}
+
+.logo_images{
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    
+    margin-right: 30px;   
+    margin-top: 30px;
+
+}
+
+#logos{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 105px;
+}
+
+#last_line{
+    display: flex;
+    margin-left: 110px;
+    width: 85%;
+    height: 10px;
+    border-top: 1px solid rgb(65, 65, 65);
+    margin-top: 128px;
+
+}
+
+#ping{
+    margin-left: 10px;
+    /* width: 30px;
+    height: 30px; */
+    display: inline;
+}
+
+#VN{
+    display: inline;
+    color: white;
+    font-size: 11px;
+    font-weight: lighter;
+    margin-right: 670px;
+}
+
+.copyrightManager {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+#last_of_last{
+    display: flex;
+}
+
+.last{
+    display: inline;
+    font-weight: lighter;
+    font-size: 11px;
+    margin-right: 15px;
+    color: white;
+}
+
+#container1 {
+    margin-left: 100px;
+    margin-top: 50px;   
+}
+.manageFooter {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-left: -10px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+body {
+    margin: 0%;
+}
+
+
+.background1 {
+    width: 100%;
+    background-color: #ffffff;
+    border: 1px solid rgb(226, 222, 222);
+    position: fixed;
+    z-index: 1000;
+}
+
+
+
+.logo-nike img {
+    width: 57px;
+}
+
+.logo-nike b {
+    font-weight: 600;
+    font-size: 14px;
+    margin-left: 50px;
+    color: black;
+}
+
+.logo-nike a {
+    text-decoration: none;
+    margin-left: 20px;
+} 
+
+.dropdown{
+    width: 200px;
+    height: 50px;
+    margin-right: -400px;
+    display: flex;
+    justify-content: space-between;
+    
+}  
+
+#search-bar {
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+    margin-left: 40px;
+}   
+
+#search-bar img {
+    width: 23px;
+    height: 23px;
+    margin-left: 215px;
+    margin-top: 2px;
+    
+
+}
+
+#search-bar input {
+    margin-top: -5px;
+    border-radius: 3px;
+    width: 190px;
+    height: 35px;
+    border: 1px solid rgb(173, 173, 173);
+}
+
+.covid19 {
+    background-color: rgb(247, 247, 247);
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 65px;
+}
+
+
+
+
+
+
+
+
